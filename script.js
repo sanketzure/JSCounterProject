@@ -5,6 +5,7 @@ let btnInc = document.querySelector(".inc");
 let btnDec = document.querySelector(".dec");
 let btnReset = document.querySelector(".reset");
 
+//Functions For Increasing & Decreasing Values
 btnInc.addEventListener("click", () => {
   value++;
   numContainer.textContent = value;
